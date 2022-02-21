@@ -1,0 +1,173 @@
+.body{
+    font-family: Raleway;
+    background: #F5F5F5;
+    width: 940px;
+}
+/* Este es el header*/
+
+.barra{
+    width: 100%;
+    display: inline-block;    
+    position: static;
+    font-family: Raleway;
+  }
+
+.barra h1{
+    width:100%
+    font-family: Raleway;
+    text-align: left;
+}
+nav ul li{
+    width:100%
+    font-family: Raleway;
+    display: inline-block ;
+   
+}
+
+/* El resumen inicial*/
+
+.resumen{
+    padding: 10px;
+    position: absolute;
+    width: 80%;
+    height: 368px;
+    top: 70px;
+    margin-top: 2em;
+    margin-left: 100px;
+}
+
+.img-perfil{
+    border-radius:100%;
+    position: relative;
+    float:right;
+    width:30%
+      
+}
+.resumen h1 {
+    position: relative;
+    text-align: justify;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 52px;
+    color: #464646;
+    
+   
+    }
+.resumen p {
+    position: relative;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.redes li{
+    display: inline;
+    font-size: 16px;
+    font-family: Raleway;
+
+}
+
+/* Sobre mi*/
+
+.descripcion{
+    width: 100%;
+    margin-top: 30%;
+    background: #EAF2FD;
+   ;
+}
+
+h2{
+    position: static;
+    width: 137px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 100px;
+}
+
+.descripcion p{
+    position: static;
+    width: 751px;
+    height: 133px;
+    left: 0px;
+    top: 54px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.firma{
+    position: static;
+    width: 140px;
+    height: 52px;
+    left: 0px;
+    top: 203px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.skills{
+    width:auto;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.skills h1{
+    font-family: Raleway;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.skills-img{
+    border: #464646;
+    border-style:hidden;
+    background: #FFFFFF;
+    padding:20px;
+    margin-left: 100px;
+}
+
+.skills-img:hover{
+    border: rgb(79, 115, 214);
+    border-style: solid;
+    transition: 400ms;
+    
+}
+
+
+.hobbies{
+    font-family: Raleway;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
