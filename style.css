@@ -171,3 +171,53 @@ h2{
     margin-top: 20px;
     margin-left: 100px;
 }
+
+.hobbies h1{
+    font-family: Raleway;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    
+
+}
+
+.hobbies-img{
+    border: #464646;
+    border-style:hidden;
+    background: #FFFFFF;
+    padding:20px;
+    margin-left: 100px;
+}
+.hobbies-img:hover{
+    border: rgb(79, 115, 214);
+    border-style: solid;
+    transition: 400ms;
+    
+}
+
+.formacion{
+    width: 100%;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight:bold;
+    background: #EAF2FD; 
+    
+}
+.formacion h1{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.formacion-img{
+    background: #FFFFFF;
+    max-width: 368px;
+    max-height: 286px;
+    border: #464646;
+    border-style:hidden;
+    padding:20px;
+    margin-left: 100px;
+}
