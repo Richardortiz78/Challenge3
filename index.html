@@ -9,17 +9,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="header">
             <div class="barra">
             <h1>Richard Ortiz</h1>
-                <nav>
+                <nav class="header-nav">
                     <ul>
                         <li><a href="#descripcion">Sobre mi</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#hobbies">Hobbies</a></li>
                         <li><a href="#formacion">Formación</a></li>
-                        <li><a href="contacto.html">Proyectos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="#experiencia">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                 </ul>  
             </nav>
             </div>
@@ -66,15 +66,33 @@
             </div>
 
 
-            <div class="experiencia">
+            <div id="experiencia" class="experiencia">
                 <h1>Experiencia Profesional</h1>
 
 
 
             </div>
 
+        <section id ="contacto" class="formularioContacto">
+            <div class="contacto">
+                <div class="izquierda">
+                    <img class="imagen-contacto" src="contacto.png">
+                </div>
+                <div class="texto-contacto">
+                <h2 class="titulo-contacto">Contacto</h2>
+                <h3 class="subtitulo-contacto">¿Quieres contactarme?</h3>
+                <h3 class="subtitulo-contacto">Completa el siguiente formulario y me pondre en contacto lo antes posible.</h3>
+                <form class="formulario">
+                <input class="input-contacto" type="text" name="nombre" placeholder="Nombre">
+                <input class="input-contacto" type="email" name="email" placeholder="Email">
+                <input class="input-contacto" type="text" name="asunto" placeholder="Asunto">
+                <textarea class="textarea-contacto" rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
 
+                <button type="submit" class="boton-contacto">Enviar mensaje</button>
+                </form>
 
+            </div>
+        </section>
 
 
         </main>
@@ -83,3 +101,4 @@
         </footer>
     </body>
 </html> 
+<script src="validacion.js"></script>

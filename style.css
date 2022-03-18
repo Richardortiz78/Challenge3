@@ -5,22 +5,37 @@
 }
 /* Este es el header*/
 
+.header .barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+
+}
+
+.header-nav{
+    display:flex;
+    
+}
 .barra{
-    width: 100%;
-    display: inline-block;    
-    position: static;
+  
     font-family: Raleway;
   }
 
 .barra h1{
-    width:100%
+    width:50%;
+    font-weight: bold;
     font-family: Raleway;
+    display: flex;
     text-align: left;
+    margin-left: 5%;
+    
 }
 nav ul li{
-    width:100%
+    width:50%
     font-family: Raleway;
-    display: inline-block ;
+    display: inline-block;
+   
    
 }
 
@@ -220,4 +235,96 @@ h2{
     border-style:hidden;
     padding:20px;
     margin-left: 100px;
+}
+
+.experiencia{
+    width:100%;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight:bold;
+}
+
+.experiencia h1{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px; 
+}
+
+.contacto{
+    background: rgba(234, 242, 253, 1);
+    display:flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.imagen-contacto{
+    display:block;
+    width: 464px;
+    height: 570px;
+}
+
+.texto-contacto{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight:bold;
+    width:35vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 32px;
+}
+.titulo-contacto{
+    margin:0;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: left;
+    
+}
+
+.subtitulo-contacto{
+    font-weight: 500;
+    font-size: 16px;   
+    line-height: 25px;
+    margin: 0; 
+    text-align: left;
+}
+.input-contacto{
+    border:transparent;
+    height:56px;
+    margin: 10px 0px;
+    width:100%;
+}
+
+.input-contacto:focus{
+        border-bottom: solid 2px #2A7AE4;
+}
+.input-contacto::placeholder{
+    color:#2A7AE4;
+}
+
+.textarea-contacto{
+    border:transparent;
+    margin:10px 0px;
+    height: 96px;
+    width:100%;
+}
+
+.textarea-contacto::placeholder{
+    color:#2A7AE4;
+}
+
+.boton-contacto{
+    border:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #2A7AE4;
+    color:white;
+    margin:25px 0;
+
 }
